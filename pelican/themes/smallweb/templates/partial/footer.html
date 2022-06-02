@@ -1,0 +1,17 @@
+<footer>
+  <section class="credits">
+    {% if SHOW_CREDITS|default(True) %}
+      {% if CREDITS %}
+        <span class="credits-left">{{ CREDITS.left }}</span>
+        <span class="credits-right">{{ CREDITS.right }}</span>
+      {% else %}
+        <span class="credits-left">
+          Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a>
+        </span>
+        <span class="credits-right">
+          Theme <a href="https://github.com/sio/pelican-smallweb" rel="nofollow">SmallWeb</a>
+        </span>
+      {% endif %}
+    {% endif %}
+  </section>
+</footer>

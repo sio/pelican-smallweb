@@ -1,0 +1,9 @@
+{%- macro url(destination) -%}
+{%- if destination|lower|truncate(4, True, '') == 'http' or not destination -%}
+{{ destination }}
+{%- elif destination|first == '/' -%}
+{{ SITEURL + destination }}
+{%- else -%}
+{{ SITEURL + '/' + destination }}
+{%- endif -%}
+{%- endmacro -%}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% import 'partial/macros.j2' as macros with context %}
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <meta name="description" content="{% block subtitle %}{{ SITESUBTITLE }}{% endblock subtitle %}">
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="origin">
+  <meta name="generator" content="Pelican">
+  <link href="{{ SITEURL }}/{% block canonical_url_suffix %}{% endblock canonical_url_suffix %}" rel="canonical">
+  {% include 'partial/feedlinks.html' %}
+  <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" type="text/css" rel="stylesheet">
+  {% for css in CSS_OVERRIDE|default([]) %}
+    <link href="{{ macros.url(css) }}" type="text/css" rel="stylesheet">
+  {% endfor %}
+</head>
+<body>
+  {% include 'partial/navigation.html' %}
+  <header>
+    <h1>{{ self.title() }}</h1>
+    <span class="subtitle">{{ self.subtitle() }}</span>
+  </header>
+  {% block content %}{% endblock content %}
+  {% include 'partial/footer.html' %}
+</body>
+</html>
