@@ -8,4 +8,10 @@
 {% else %}
 {{ super() }}
 {% endif %}
-{% endblock %}
+{% endblock title %}
+
+{% block content %}
+<main rel="main">
+  {% include 'partial/loop.html' %}
+</main>
+{% endblock content %}

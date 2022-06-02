@@ -1,0 +1,19 @@
+<ul class="article-list">
+{% for article in articles_page.object_list %}
+<li>
+  <article class="preview">
+    <a href="{{ macros.url(article.url) }}">
+    <header>
+      <h1>{{ article.title }}</h1>
+      <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
+    </header>
+    <section>
+      {{ article.summary|striptags }}
+    </section>
+    </a>
+  </article>
+</li>
+{% endfor %}
+</ul>
+
+{% include 'partial/pagination.html' %}
