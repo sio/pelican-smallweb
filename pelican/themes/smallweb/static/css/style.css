@@ -1,5 +1,6 @@
 :root {  /* TODO: configure CSS variables from theme settings */
   --text-color: black;
+  --text-color-inverted: white;
   --page-color: white;
   --accent-color: rgb(242,106,61);
   --heading-font-family: 'Fira Sans', serif;
@@ -23,6 +24,8 @@ body > * {
   background-color: var(--accent-color);
   padding: 30vh 0 2rem 0;
   position: relative;
+  color: var(--text-color-inverted);
+  z-index: 0
 }
 .page-header:after {
   content: '';
@@ -31,6 +34,7 @@ body > * {
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: 10
 }
 .page-header > * {
   display: block;
@@ -38,6 +42,7 @@ body > * {
   margin: 0 auto 0 auto;
   position: relative;
   bottom: 0;
+  z-index: 100;
 }
 .article-list,
 .article-list > li {
