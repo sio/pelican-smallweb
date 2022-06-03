@@ -5,6 +5,8 @@
   --accent-color: rgb(242,106,61);
   --heading-font-family: 'Fira Sans', serif;
   --text-font-family: 'PT Sans', sans-serif;
+
+  --heading-margin: 0.83em;
   --micro-padding: 2px;
   --content-width: 40rem;
   --interface-width: 48rem;
@@ -60,6 +62,16 @@ body > * {
 }
 article.preview {
   padding: 1em 0;
+}
+article.preview h1 {
+  margin: 0 0 var(--heading-margin) 0;
+}
+article.preview time {
+  display: block;
+  margin-top: var(--heading-margin);
+  text-align: center;
+  font-size: 75%;
+  opacity: 0.5;
 }
 article.preview a {
   color: var(--text-color);

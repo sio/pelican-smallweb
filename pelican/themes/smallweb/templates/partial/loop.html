@@ -4,8 +4,8 @@
   <article class="preview">
     <a href="{{ macros.url(article.url) }}">
     <header>
-      <h1>{{ article.title }}</h1>
       <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
+      <h1>{{ article.title }}</h1>
     </header>
     <section>
       {{ article.summary|striptags }}
