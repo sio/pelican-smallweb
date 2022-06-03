@@ -60,6 +60,10 @@ article.preview a {
   color: var(--text-color);
   text-decoration: none;
 }
+main:hover article.preview:not(:hover) {
+  opacity: 0.7;
+  transition: opacity 1s linear;
+}
 .page-footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
