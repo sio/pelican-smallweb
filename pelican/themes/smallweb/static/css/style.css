@@ -28,7 +28,8 @@ body > * {
   padding: 30vh var(--micro-padding) 2rem var(--micro-padding);
   position: relative;
   color: var(--text-color-inverted);
-  z-index: 0
+  z-index: 0;
+  font-size: 150%;
 }
 .page-header:after {
   content: '';
