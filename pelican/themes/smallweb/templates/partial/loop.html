@@ -16,4 +16,6 @@
 {% endfor %}
 </ul>
 
+{% if articles_page.has_other_pages() %}
 {% include 'partial/pagination.html' %}
+{% endif %}

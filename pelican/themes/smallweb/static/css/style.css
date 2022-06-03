@@ -10,6 +10,7 @@
   --micro-padding: 2px;
   --content-width: 40rem;
   --interface-width: calc(1.2 * var(--content-width));
+  --button-radius: 1.5rem;
 }
 body {
   margin: 0;
@@ -92,6 +93,34 @@ body > * {
   padding: 0.2em 1em;
   text-decoration: none;
   text-transform: lowercase;
+}
+
+
+/* Pagination links */
+.pagination {
+  display: flex;
+  text-align: center;
+}
+.pagination .disabled {
+  visibility: hidden;
+}
+.pagination > * {
+  padding: 0.5em 0;
+  margin: 1.5em 0;
+}
+.pagination a {
+  flex-grow: 1;
+  text-decoration: none;
+  border-radius: var(--button-radius);
+}
+.pagination a:hover {
+  color: var(--text-color-inverted);
+  background: var(--accent-color);
+  transition: color 1s, background 1s;
+}
+.pagination .label {
+  flex-grow: 5;
+  opacity: 0.5;
 }
 
 
