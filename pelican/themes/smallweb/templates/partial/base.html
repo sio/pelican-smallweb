@@ -14,6 +14,9 @@
   <link href="{{ SITEURL }}/{% block canonical_url_suffix %}{% endblock canonical_url_suffix %}" rel="canonical">
   {% include 'partial/feedlinks.html' %}
   <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" type="text/css" rel="stylesheet">
+  {% if ALLOW_GOOGLE_FONTS|default(True) %}
+  <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/fonts.css" type="text/css" rel="stylesheet">
+  {% endif %}
   {% for css in CSS_OVERRIDE|default([]) %}
     <link href="{{ macros.url(css) }}" type="text/css" rel="stylesheet">
   {% endfor %}

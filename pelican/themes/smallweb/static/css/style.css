@@ -2,9 +2,15 @@
   --text-color: black;
   --page-color: white;
   --accent-color: rgb(242,106,61);
+  --heading-font-family: 'Fira Sans', serif;
+  --text-font-family: 'PT Sans', sans-serif;
 }
 body {
   margin: 0;
+  font-family: var(--text-font-family);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
 }
 body > * {
   max-width: 40rem;
