@@ -6,6 +6,8 @@
   --heading-font-family: 'Fira Sans', serif;
   --text-font-family: 'PT Sans', sans-serif;
   --micro-padding: 2px;
+  --content-width: 40rem;
+  --interface-width: 48rem;
 }
 body {
   margin: 0;
@@ -15,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font-family);
 }
 body > * {
-  max-width: 40rem;
+  max-width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--micro-padding);
@@ -42,7 +44,7 @@ body > * {
 }
 .page-header > * {
   display: block;
-  max-width: 48rem;
+  max-width: var(--interface-width);
   margin: 0 auto 0 auto;
   position: relative;
   bottom: 0;
@@ -57,4 +59,15 @@ body > * {
 article.preview a {
   color: var(--text-color);
   text-decoration: none;
+}
+.page-footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  filter: opacity(50%);
+  font-size: 80%;
+  max-width: var(--interface-width);
+}
+.credits {
+  display: flex;
+  justify-content: space-between;
 }
