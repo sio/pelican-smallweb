@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {% import 'partial/macros.j2' as macros with context %}
-<html lang="{{ DEFAULT_LANG }}">
+<html lang="{% block lang %}{{ DEFAULT_LANG }}{% endblock lang %}">
 <head>
   <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
   <meta name="description" content="{% block subtitle %}{{ SITESUBTITLE }}{% endblock subtitle %}">

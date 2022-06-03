@@ -1,0 +1,19 @@
+{% extends "partial/base.html" %}
+{% block lang %}{{ article.lang }}{% endblock %}
+{% block canonical_url_suffix %}{{ article.url }}{% endblock %}
+
+{% block title %}{{ article.title|striptags }}{% endblock %}
+{% block subtitle %}
+{{ SITENAME }} | {{ article.locale_date }}
+{% endblock subtitle %}
+
+{% block content %}
+<article class="full">{{ article.content }}</article>
+{% if article.tags %}
+<nav class="article-tags">
+  {% for tag in article.tags %}
+  <a href="{{ macros.url(tag.url) }}">{{ tag|escape }}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+{% endblock content %}
