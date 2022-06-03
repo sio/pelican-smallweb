@@ -19,6 +19,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font-family);
 }
+a {
+  color: var(--accent-color);
+  filter: brightness(80%);
+}
+a:visited {
+  color: var(--accent-color);
+  filter: brightness(50%);
+}
 body > * {
   max-width: var(--content-width);
   margin-left: auto;
