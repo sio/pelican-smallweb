@@ -6,3 +6,8 @@
 
 Makefile.venv
 .venv
+
+
+*.woff
+*.woff2
+/pelican/themes/smallweb/static/css/fonts.css
