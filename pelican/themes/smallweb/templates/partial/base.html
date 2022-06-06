@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% set template_name = (self|string).split("'")[1].split(".")[0] %}
 {% import 'partial/macros.j2' as macros with context %}
 <html lang="{% block lang %}{{ DEFAULT_LANG }}{% endblock lang %}">
 <head>
@@ -21,7 +22,7 @@
     <link href="{{ macros.url(css) }}" type="text/css" rel="stylesheet">
   {% endfor %}
 </head>
-<body>
+<body class="pelican-{{ template_name }}">
   {% include 'partial/navigation.html' %}
   <header class="page-header">
     <h1>{{ self.title() }}</h1>
