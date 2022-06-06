@@ -1,10 +1,39 @@
 [build-system]
 requires = [
-    "setuptools>=45",
-    "setuptools_scm>=6.2",
-    "wheel",
+    "poetry-core>=1.0.0",
+    "poetry-dynamic-versioning",
 ]
-build-backend = "setuptools.build_meta"
+build-backend = "poetry.core.masonry.api"
 
 
-[tool.setuptools_scm]
+[tool.poetry]
+name = "pelican-theme-smallweb"
+description = "SmallWeb theme for Pelican static site generator"
+authors = [
+    "Vitaly Potyarkin <sio.wtf@gmail.com>",
+]
+version = "0"
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["blog", "pelican", "theme"]
+packages = [
+    { include = "pelican" },
+]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://github.com/sio/pelican-smallweb"
+
+
+[tool.poetry.dependencies]
+pelican = ""
+setuptools = ""
+
+
+[tool.poetry-dynamic-versioning]
+enable = true
