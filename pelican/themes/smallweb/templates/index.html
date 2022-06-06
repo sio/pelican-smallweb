@@ -1,0 +1,9 @@
+{% extends 'partial/base.html' %}
+
+{% block canonical_url_suffix %}{{ slug }}{% endblock %}
+
+{% block content %}
+<main rel="main">
+  {% include 'partial/loop.html' %}
+</main>
+{% endblock content %}
