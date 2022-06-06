@@ -252,7 +252,7 @@ main:hover article.preview:not(:hover) {
 img {
   width: auto;
   height: auto;
-  max-width: min(var(--content-width), 98vw);
+  max-width: min(var(--content-width), 90vw);
   max-height:  75vh;
   margin-left: 50%;
   transform: translateX(-50%);
