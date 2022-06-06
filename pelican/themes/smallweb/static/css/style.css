@@ -46,6 +46,14 @@ body > * {
   padding-left: var(--micro-padding);
   padding-right: var(--micro-padding);
 }
+blockquote {
+  border-left: solid;
+  border-color: var(--accent-color-darker);
+  border-width: 2px;
+  padding-left: 1ex;
+  margin: 0 0 0 1ex;
+  font-style: italic;
+}
 
 
 /* Navigation menu */
