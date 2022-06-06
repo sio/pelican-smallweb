@@ -25,6 +25,7 @@
   --content-width: 40rem;
   --interface-width: calc(1.2 * var(--content-width));
   --button-radius: 1.5rem;
+  --opacity-secondary: 0.5;
 }
 
 
@@ -159,7 +160,7 @@ blockquote em {
 /* Tag lists */
 .article-tags {
   text-align: center;
-  margin: 3rem auto;
+  margin: 1rem auto;
   font-size: 80%;
 }
 .article-tags a {
@@ -256,6 +257,53 @@ article.preview a {
 main:hover article.preview:not(:hover) {
   opacity: 0.7;
   transition: opacity 1s linear;
+}
+
+
+/* Neighbors */
+.neighbors {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 80%;
+}
+.neighbor {
+  display: block;
+  max-width: 50%;
+  flex-grow: 1;
+  flex-basis: 0px;
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 0 1.5em;
+  position: relative;
+  opacity: var(--opacity-secondary);
+}
+.neighbor:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.neighbor h1 {
+  margin-bottom: 0.5em;
+  font-size: 120%;
+}
+.neighbor p {
+  margin-top: 0.5em;
+}
+.neighbor-next:before,
+.neighbor-prev:after {
+  position: absolute;
+  top: 50%;
+  font-size: 200%;
+  transform: translateY(-50%);
+  color: var(--accent-color-darker);
+}
+.neighbor-next:before {
+  content: "«";
+  left: 0;
+}
+.neighbor-prev:after {
+  content: "»";
+  right: 0;
 }
 
 
