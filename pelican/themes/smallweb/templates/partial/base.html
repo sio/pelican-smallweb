@@ -4,7 +4,7 @@
 <html lang="{% block lang %}{{ DEFAULT_LANG }}{% endblock lang %}">
 <head>
   <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-  <meta name="description" content="{% block subtitle %}{{ SITESUBTITLE }}{% endblock subtitle %}">
+  <meta name="description" content="{{ self.subtitle()|striptags|escape }}">
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -26,7 +26,7 @@
   {% include 'partial/navigation.html' %}
   <header class="page-header">
     <h1>{{ self.title() }}</h1>
-    <span class="subtitle">{{ self.subtitle() }}</span>
+    <span class="subtitle">{% block subtitle %}{{ SITESUBTITLE }}{% endblock subtitle %}</span>
   </header>
   {% block content %}{% endblock content %}
   {% include 'partial/footer.html' %}
