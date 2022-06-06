@@ -25,3 +25,14 @@ Import it in your `pelicanconf.py`:
 from pelican.themes import smallweb
 THEME = smallweb.path()
 ```
+
+
+## Privacy concerns
+
+This theme uses *Google Fonts* by default. If you do not want third-parties to
+track your visitors, set `ALLOW_GOOGLE_FONTS = False` in your pelicanconf.py
+and (optionally) provide self-hosted version of fonts via `CSS_OVERRIDE` list.
+
+No other third-party resources are referenced.
+
+No personally identifiable information is collected.
