@@ -181,12 +181,16 @@ blockquote em {
 /* Page headers (colored large block with title) */
 .page-header {
   max-width: 100%;
+  min-height: 40vh;
   max-height: 40vh;
   background-color: var(--accent-color);
-  padding: 30vh var(--micro-padding) 2rem var(--micro-padding);
+  padding: 2rem var(--micro-padding);
   position: relative;
   color: var(--text-color-inverted);
   z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .page-header a {
   text-decoration: none;
@@ -213,10 +217,11 @@ blockquote em {
 .page-header > * {
   display: block;
   max-width: var(--interface-width);
+  width: calc(min(var(--interface-width), 98%));
   margin: 0 auto 0 auto;
   position: relative;
-  bottom: 0;
   z-index: 100;
+  text-align: left;
 }
 
 
