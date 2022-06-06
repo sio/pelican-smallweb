@@ -6,6 +6,12 @@
 {% block subtitle %}
 <a href="{{ SITEURL }}/">{{ SITENAME }}</a> |
 {% if article.category %}<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category|title }}</a> | {% endif %}
+{% if article.authors %}
+{% for author in article.authors %}
+  <a href="{{ SITEURL }}/{{ author.url }}">{{ author.name }}</a>
+  {% if loop.revindex != 1 %}, {% endif %}
+{% endfor %}
+| {% endif %}
 {{ article.locale_date }}
 {% endblock subtitle %}
 
