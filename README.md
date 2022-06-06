@@ -4,7 +4,7 @@ This is a simple yet modern-looking theme for Pelican blogs. It uses no
 JavaScript, and all HTML/CSS had been crafted by hand - remember [webmasters]?
 
 Theme name is inspired by the idea of [small web] - a simpler old-style web of
-personal pages that didn't actually vanish but has become a lot less
+personal pages that didn't actually disappear but has become a lot less
 visible as Internet had grown older and larger.
 
 [webmasters]: https://justinjackson.ca/webmaster/
