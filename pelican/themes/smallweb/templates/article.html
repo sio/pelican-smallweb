@@ -31,12 +31,16 @@
     <h1>{{ article.prev_article.title }}</h1>
     <p>{{ article.prev_article.summary|striptags|truncate(90) }}</p>
   </a>
+  {% else %}
+  <span class="neighbor"></span>
   {% endif %}
   {% if article.next_article %}
   <a class="neighbor neighbor-next" href="{{ SITEURL }}/{{ article.next_article.url }}">
     <h1>{{ article.next_article.title }}</h1>
     <p>{{ article.next_article.summary|striptags|truncate(90) }}</p>
   </a>
+  {% else %}
+  <span class="neighbor"></span>
   {% endif %}
 </nav>
 {% endif %}
