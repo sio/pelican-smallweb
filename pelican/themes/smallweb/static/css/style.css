@@ -159,11 +159,13 @@ blockquote em {
 
 
 /* Tag lists */
+.tag-cloud,
 .article-tags {
   text-align: center;
   margin: 1rem auto;
   font-size: 80%;
 }
+.tag-cloud a,
 .article-tags a {
   padding: 0.2em 0.5em;
   margin: 1.5em 0.25em;
@@ -173,11 +175,36 @@ blockquote em {
   border-style: solid;
   border-width: 1px;
 }
+.tag-cloud a:hover,
 .article-tags a:hover {
   color: var(--text-color-inverted);
   background: var(--accent-color);
   transition: color 1s, background 1s;
 }
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  max-width: calc(var(--content-width) * 0.75);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.tag-cloud .tag {
+  margin: 0.25em;
+  font-family: var(--heading-font-family);
+}
+.tag-weight-1  { font-size: 100%; }
+.tag-weight-2  { font-size: 120%; }
+.tag-weight-3  { font-size: 140%; }
+.tag-weight-4  { font-size: 160%; }
+.tag-weight-5  { font-size: 180%; }
+.tag-weight-6  { font-size: 200%; }
+.tag-weight-7  { font-size: 220%; }
+.tag-weight-8  { font-size: 240%; }
+.tag-weight-9  { font-size: 260%; }
+.tag-weight-10 { font-size: 280%; }
 
 
 /* Page headers (colored large block with title) */

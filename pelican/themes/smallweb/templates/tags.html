@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block canonical_url_suffix %}{{ slug }}{% endblock %}
+
+{% block title %}
+{{ SITENAME }} - Tag Cloud
+{% endblock title %}
+
+{% block subtitle %}
+{{ tags|count }} tag{{ "s" if tags|count > 1 }}
+{% endblock %}
+
+{% block content %}
+  {% set max_count = (tags|map('last')|map('count')|max) or 1 %}
+  {% set steps = (TAG_CLOUD_STEPS|default(5, true)) - 1 %}
+  <article class="tag-cloud">
+    {% for tag, articles in tags|sort %}
+      {% set count = articles|count %}
+      <a class="tag tag-weight-{{ (count/(max_count/steps))|int + 1 }}" href="{{ SITEURL }}/{{ tag.url }}" title="{{ count }} articles tagged '{{ tag }}'">{{ tag }}</a>
+    {% endfor %}
+  </article>
+{% endblock content %}
