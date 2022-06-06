@@ -290,6 +290,7 @@ img {
 /* Article - Full content */
 article.full {
   padding-top: 2rem;
+  line-height: 1.5;
 }
 article.full h1 a,
 article.full h2 a,
