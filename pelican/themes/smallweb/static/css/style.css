@@ -368,6 +368,12 @@ article.full h6 a {
   text-decoration: none;
   filter: none;
 }
+article.preview h1,
+article.preview h2,
+article.preview h3,
+article.preview h4,
+article.preview h5,
+article.preview h6,
 article.full h1,
 article.full h2,
 article.full h3,
