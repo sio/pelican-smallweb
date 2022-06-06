@@ -1,0 +1,17 @@
+{% extends 'partial/base.html' %}
+
+{% block canonical_url_suffix %}{{ slug }}{% endblock %}
+
+{% block title %}
+{{ SITENAME }} - {{ author.name }}
+{% endblock title %}
+
+{% block subtitle %}
+{{ articles|count }} article{{ "s" if articles|count > 1 }}
+{% endblock %}
+
+{% block content %}
+<main rel="main">
+  {% include 'partial/loop.html' %}
+</main>
+{% endblock content %}
