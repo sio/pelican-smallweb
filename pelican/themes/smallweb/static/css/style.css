@@ -153,7 +153,7 @@ blockquote em {
 }
 .pagination .label {
   flex-grow: 5;
-  opacity: 0.5;
+  opacity: var(--opacity-secondary);
 }
 
 
@@ -248,7 +248,7 @@ article.preview time {
   margin-top: var(--heading-margin);
   text-align: center;
   font-size: 75%;
-  opacity: 0.5;
+  opacity: var(--opacity-secondary);
 }
 article.preview a {
   color: var(--text-color);
@@ -322,7 +322,7 @@ img {
 .page-footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  filter: opacity(50%);
+  opacity: var(--opacity-secondary);
   font-size: 80%;
   max-width: var(--interface-width);
 }
