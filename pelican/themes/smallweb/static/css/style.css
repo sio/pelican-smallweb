@@ -288,6 +288,12 @@ main:hover article.preview:not(:hover) {
 }
 
 
+/* Archive */
+.archive li {
+  margin-bottom: 1ex;
+}
+
+
 /* Neighbors */
 .neighbors {
   display: flex;

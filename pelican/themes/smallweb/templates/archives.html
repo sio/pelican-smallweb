@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block canonical_url_suffix %}{{ slug }}{% endblock %}
+
+{% block title %}
+{{ SITENAME }} - Archives
+{% endblock title %}
+
+{% block content %}
+<article class="archive">
+{% set year = namespace(last=0) %}
+{% for article in articles %}
+  {% set year.current = article.date|strftime("%Y") %}
+  {% if year.current != year.last %}
+    {% if year.last != 0 %}
+    </ul>
+    {% endif %}
+    <h2>{{ year.current }}</h2>
+    <ul>
+    {% set year.last = year.current %}
+  {% endif %}
+  <li>
+    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+  </li>
+  {% if loop.revindex0 == 0 %}
+    </ul>
+  {% endif %}
+{% endfor %}
+</article>
+{% endblock content %}
