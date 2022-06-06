@@ -253,10 +253,21 @@ img {
 .credits {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
 }
+.credits > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0px;
+}
+.credits-left {
+  text-align: left;
+}
+.credits-right {
+  text-align: right;
+}
 .credits-center {
+  text-align: center;
   filter: none;
   font-size: 120%;
   font-weight: bold;
