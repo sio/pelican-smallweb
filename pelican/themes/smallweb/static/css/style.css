@@ -236,6 +236,9 @@ blockquote em {
 article.preview {
   padding: 1em 0;
 }
+article.preview > a {
+  display: block; /* expand clickable area */
+}
 article.preview h1 {
   margin: 0 0 var(--heading-margin) 0;
 }
