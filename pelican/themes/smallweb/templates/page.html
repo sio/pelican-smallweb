@@ -1,0 +1,18 @@
+{% extends "partial/base.html" %}
+{% block lang %}{{ page.lang }}{% endblock %}
+{% block canonical_url_suffix %}{{ page.url }}{% endblock %}
+
+{% block title %}{{ page.title|striptags }}{% endblock %}
+{% block subtitle %}
+<a href="{{ SITEURL }}/">{{ SITENAME }}</a>
+{% if page.authors %} |
+{% for author in page.authors %}
+  <a href="{{ SITEURL }}/{{ author.url }}">{{ author.name }}</a>
+  {% if loop.revindex != 1 %}, {% endif %}
+{% endfor %}
+{% endif %}
+{% endblock subtitle %}
+
+{% block content %}
+<article class="full">{{ page.content }}</article>
+{% endblock content %}
