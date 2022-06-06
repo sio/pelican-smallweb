@@ -1,8 +1,22 @@
 :root {  /* TODO: configure CSS variables from theme settings */
+  --accent-color:  hsl(
+    var(--accent-hue),
+    var(--accent-sat),
+    var(--accent-val)
+  ); /* rgb(242,106,61) */
+  --accent-color-darker: hsl(
+    var(--accent-hue),
+    calc(var(--accent-sat) - 27.9%),
+    calc(var(--accent-val) - 11.9%)
+  );
+  --accent-hue: 15; /* TODO: convert from RGB in theme variables */
+  --accent-sat: 87.4%;
+  --accent-val: 59.4%;
+
   --text-color: black;
   --text-color-inverted: white;
   --page-color: white;
-  --accent-color: rgb(242,106,61);
+
   --heading-font-family: 'Fira Sans', serif;
   --text-font-family: 'PT Sans', sans-serif;
 
@@ -12,6 +26,8 @@
   --interface-width: calc(1.2 * var(--content-width));
   --button-radius: 1.5rem;
 }
+
+
 body {
   margin: 0;
   font-family: var(--text-font-family);
@@ -21,12 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font-family);
 }
 a {
-  color: var(--accent-color);
-  filter: brightness(80%);
-}
-a:visited {
-  color: var(--accent-color);
-  filter: brightness(50%);
+  color: var(--accent-color-darker);
 }
 body > * {
   max-width: var(--content-width);
@@ -272,6 +283,5 @@ article.full h3,
 article.full h4,
 article.full h5,
 article.full h6 {
-  color: var(--accent-color);
-  filter: brightness(80%);
+  color: var(--accent-color-darker);
 }
