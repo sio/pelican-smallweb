@@ -218,6 +218,17 @@ main:hover article.preview:not(:hover) {
 }
 
 
+/* Images */
+img {
+  width: auto;
+  height: auto;
+  max-width: min(120%, 98vw);
+  max-height:  75vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
 /* Page footer */
 .page-footer {
   padding-top: 3rem;
