@@ -63,6 +63,9 @@ code, code * {
   white-space: pre!important;
   font-size: 1rem;
 }
+em {
+  font-weight: 550;
+}
 
 
 /* Navigation menu */
