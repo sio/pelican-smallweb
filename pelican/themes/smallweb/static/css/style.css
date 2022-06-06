@@ -52,9 +52,16 @@ blockquote {
   border-left: solid;
   border-color: var(--accent-color-darker);
   border-width: 2px;
-  padding-left: 1ex;
-  margin: 0 0 0 1ex;
+  padding-left: 0.55rem;
+  margin: 0 0 0 0.55rem;
   font-style: italic;
+}
+pre {
+  margin: 0 0 0 calc(0.55rem * 2 + 2px); /* same as blockquote */
+}
+code, code * {
+  white-space: pre!important;
+  font-size: 1rem;
 }
 
 
