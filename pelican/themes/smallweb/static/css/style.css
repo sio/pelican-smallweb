@@ -154,6 +154,12 @@ body > * {
   position: relative;
   color: var(--text-color-inverted);
   z-index: 0;
+}
+.page-header > h1 {
+  margin-bottom: 0.5rem;
+}
+.pelican-index .page-header,
+.pelican-category .page-header {
   font-size: 150%;
 }
 .page-header:after {
