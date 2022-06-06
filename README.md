@@ -6,9 +6,11 @@ JavaScript, and all HTML/CSS had been crafted by hand - remember [webmasters]?
 Theme name is inspired by the idea of [small web] - a simpler old-style web of
 personal pages that didn't actually disappear but has become a lot less
 visible as Internet had grown older and larger.
+Authors would like to thank [Marginalia Search] for keeping the spirit alive!
 
 [webmasters]: https://justinjackson.ca/webmaster/
 [small web]: https://felix.plesoianu.ro/web/in-the-small.html
+[Marginalia Search]: https://search.marginalia.nu/
 
 
 ## Installation and usage
