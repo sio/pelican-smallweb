@@ -21,7 +21,7 @@
   --text-font-family: 'PT Sans', sans-serif;
 
   --heading-margin: 0.83em;
-  --micro-padding: 2px;
+  --micro-padding: 5px;
   --content-width: 42.6rem;
   --interface-width: calc(1.2 * var(--content-width));
   --button-radius: 1.5rem;
@@ -29,6 +29,10 @@
 }
 
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   font-family: var(--text-font-family);
@@ -62,8 +66,14 @@ pre {
   overflow-x: auto;
 }
 code, code * {
-  white-space: pre!important;
   font-size: 1rem;
+}
+:not(pre) code {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+pre code, pre code * {
+  white-space: pre!important;
 }
 blockquote em {
   font-weight: 550;
