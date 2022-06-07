@@ -308,12 +308,15 @@ main:hover article.preview:not(:hover) {
 .neighbors {
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   font-size: 80%;
 }
 .neighbor {
   display: block;
-  max-width: 50%;
+  max-width: calc(0.5 * var(--content-width));
+  min-width: calc(min(100% - 2em, 0.3 * var(--content-width)));
   flex-grow: 1;
   flex-basis: 0px;
   color: var(--text-color);
