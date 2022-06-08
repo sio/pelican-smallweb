@@ -21,6 +21,15 @@
   {% for css in CSS_OVERRIDE|default([]) %}
     <link href="{{ macros.url(css) }}" type="text/css" rel="stylesheet">
   {% endfor %}
+  {% if SMALLWEB_COLORS|default(False) %}
+  <style>
+  :root {
+    {% for key, value in SMALLWEB_COLORS.items() %}
+    --{{ key }}: {{ value }};
+    {% endfor %}
+  }
+  </style>
+  {% endif %}
 </head>
 <body class="pelican-{{ template_name }}">
   {% include 'partial/navigation.html' %}
