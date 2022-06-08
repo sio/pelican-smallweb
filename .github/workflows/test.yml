@@ -1,0 +1,22 @@
+name: test
+
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+  pull_request:
+  schedule:
+    - cron: '38 5 2 * *'
+
+jobs:
+  test-linux:
+    runs-on: ubuntu-latest
+    env:
+      PIP_CACHE_DIR: cache/pip
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v1
+        with:
+          path: cache
+          key: cache-v1-${{ hashFiles('pyproject.toml') }}
+      - run: make test
