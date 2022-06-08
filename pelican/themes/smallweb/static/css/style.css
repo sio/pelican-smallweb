@@ -1,17 +1,17 @@
 :root {  /* TODO: configure CSS variables from theme settings */
   --accent-color:  hsl(
     var(--accent-hue),
-    var(--accent-sat),
-    var(--accent-val)
+    var(--accent-saturation),
+    var(--accent-lightness)
   ); /* rgb(242,106,61) */
   --accent-color-darker: hsl(
     var(--accent-hue),
-    calc(var(--accent-sat) - 27.9%),
-    calc(var(--accent-val) - 11.9%)
+    calc(var(--accent-saturation) - 27.9%),
+    calc(var(--accent-lightness) - 11.9%)
   );
   --accent-hue: 15; /* TODO: convert from RGB in theme variables */
-  --accent-sat: 87.4%;
-  --accent-val: 59.4%;
+  --accent-saturation: 87.4%;
+  --accent-lightness: 59.4%;
 
   --text-color: black;
   --text-color-inverted: white;
