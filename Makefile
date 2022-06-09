@@ -21,7 +21,7 @@ export SMALLWEB_ACCENT=$(SMALLWEB_ACCENT_$(DEMO_FLAVOR))
 
 
 .PHONY: demo
-demo: | venv $(VENV)/markdown
+demo: | venv $(VENV)/markdown $(VENV)/pelican-neighbors
 	$(VENV)/pelican $(DEMO_INPUT) -o $(DEMO_OUTPUT) -s $(DEMO_CONFIG) -vv -D
 
 
