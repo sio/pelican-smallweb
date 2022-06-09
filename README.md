@@ -3,7 +3,7 @@
 This is a simple yet modern-looking theme for Pelican blogs. It uses no
 JavaScript, and all HTML/CSS had been crafted by hand - remember [webmasters]?
 
-Demo: <https://sio.github.io/pelican-smallweb/default/>
+**Demo:** <https://sio.github.io/pelican-smallweb/default/>
 
 Theme name is inspired by the idea of [small web] - a simpler old-style web of
 personal pages that didn't actually disappear but has become a lot less
