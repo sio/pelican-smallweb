@@ -1,4 +1,4 @@
-title: SmallWeb theme: installation and usage
+title: SmallWeb: installation and usage
 date: 2022-06-09
 tags: pelican, smallweb, theme
 
