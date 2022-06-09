@@ -14,6 +14,7 @@ SMALLWEB_HASHES = smallweb.hashes()
 
 
 # Some obligatory Pelican configuration
+SITENAME = 'SmallWeb theme demo blog'
 LOCALE = 'C'
 RELATIVE_URLS = True
 DEFAULT_CATEGORY = 'posts'
