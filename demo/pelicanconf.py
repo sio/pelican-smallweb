@@ -19,6 +19,7 @@ RELATIVE_URLS = True
 DEFAULT_CATEGORY = 'posts'
 DEFAULT_LANG = 'EN'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+DEFAULT_PAGINATION = 6
 MENUITEMS = [
     ('github', 'https://github.com/sio/pelican-smallweb'),
     ('pypi', 'https://pypi.org/project/pelican-theme-smallweb/'),
