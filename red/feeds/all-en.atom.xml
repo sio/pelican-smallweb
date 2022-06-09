@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2022-06-09T00:00:00+00:00</updated><entry><title>SmallWeb theme: installation and usage</title><link href="smallweb-theme-installation-and-usage.html" rel="alternate"></link><published>2022-06-09T00:00:00+00:00</published><updated>2022-06-09T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-06-09:smallweb-theme-installation-and-usage.html</id><content type="html">&lt;p&gt;This theme is installable via &lt;a href="https://pypi.org/project/pelican-theme-smallweb/"&gt;PyPI&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ pip install pelican-theme-smallweb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Latest development version is also installable:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ pip install git+https://github.com/sio/pelican-smallweb/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Import it in your &lt;code&gt;pelicanconf.py&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelican.themes&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;smallweb&lt;/span&gt;
+&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;smallweb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="posts"></category><category term="pelican"></category><category term="smallweb"></category><category term="theme"></category></entry><entry><title>First blog article</title><link href="first-blog-article.html" rel="alternate"></link><published>2022-01-10T00:00:00+00:00</published><updated>2022-01-10T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-10:first-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry></feed>
