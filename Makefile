@@ -28,7 +28,3 @@ demo: | venv $(VENV)/markdown
 .PHONY: demo-server
 demo-server: | venv
 	$(VENV)/pelican --listen --port 8000 --bind 127.0.0.1 --output $(DEMO_OUTPUT)
-
-
-help:
-	$(VENV)/pelican --help
