@@ -15,6 +15,7 @@ SMALLWEB_HASHES = smallweb.hashes()
 
 # Some obligatory Pelican configuration
 LOCALE = 'C'
+RELATIVE_URLS = True
 DEFAULT_CATEGORY = 'posts'
 DEFAULT_LANG = 'EN'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
