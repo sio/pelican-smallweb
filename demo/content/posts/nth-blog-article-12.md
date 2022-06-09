@@ -1,4 +1,4 @@
-title: Twelveth blog article
+title: Twelfth blog article
 date: 2022-01-22
 tags: pelican, blog, demo
 

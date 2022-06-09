@@ -1,4 +1,4 @@
-title: Eightth blog article
+title: Eighth blog article
 date: 2022-01-18
 tags: pelican, blog, demo
 
