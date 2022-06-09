@@ -60,7 +60,483 @@ handles RGB to HSL color space conversion automatically:&lt;/p&gt;
 &lt;p&gt;Import it in your &lt;code&gt;pelicanconf.py&lt;/code&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelican.themes&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;smallweb&lt;/span&gt;
 &lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;smallweb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="posts"></category><category term="pelican"></category><category term="smallweb"></category><category term="theme"></category></entry><entry><title>First blog article</title><link href="first-blog-article.html" rel="alternate"></link><published>2022-01-10T00:00:00+00:00</published><updated>2022-01-10T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-10:first-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="posts"></category><category term="pelican"></category><category term="smallweb"></category><category term="theme"></category></entry><entry><title>Fifteenth blog article</title><link href="fifteenth-blog-article.html" rel="alternate"></link><published>2022-01-25T00:00:00+00:00</published><updated>2022-01-25T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-25:fifteenth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Fourteenth blog article</title><link href="fourteenth-blog-article.html" rel="alternate"></link><published>2022-01-24T00:00:00+00:00</published><updated>2022-01-24T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-24:fourteenth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Thirteenth blog article</title><link href="thirteenth-blog-article.html" rel="alternate"></link><published>2022-01-23T00:00:00+00:00</published><updated>2022-01-23T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-23:thirteenth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Twelveth blog article</title><link href="twelveth-blog-article.html" rel="alternate"></link><published>2022-01-22T00:00:00+00:00</published><updated>2022-01-22T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-22:twelveth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Eleventh blog article</title><link href="eleventh-blog-article.html" rel="alternate"></link><published>2022-01-21T00:00:00+00:00</published><updated>2022-01-21T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-21:eleventh-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Tenth blog article</title><link href="tenth-blog-article.html" rel="alternate"></link><published>2022-01-20T00:00:00+00:00</published><updated>2022-01-20T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-20:tenth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Nineth blog article</title><link href="nineth-blog-article.html" rel="alternate"></link><published>2022-01-19T00:00:00+00:00</published><updated>2022-01-19T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-19:nineth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Eightth blog article</title><link href="eightth-blog-article.html" rel="alternate"></link><published>2022-01-18T00:00:00+00:00</published><updated>2022-01-18T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-18:eightth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Seventh blog article</title><link href="seventh-blog-article.html" rel="alternate"></link><published>2022-01-17T00:00:00+00:00</published><updated>2022-01-17T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-17:seventh-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Sixth blog article</title><link href="sixth-blog-article.html" rel="alternate"></link><published>2022-01-16T00:00:00+00:00</published><updated>2022-01-16T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-16:sixth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Fifth blog article</title><link href="fifth-blog-article.html" rel="alternate"></link><published>2022-01-15T00:00:00+00:00</published><updated>2022-01-15T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-15:fifth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Fourth blog article</title><link href="fourth-blog-article.html" rel="alternate"></link><published>2022-01-14T00:00:00+00:00</published><updated>2022-01-14T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-14:fourth-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Third blog article</title><link href="third-blog-article.html" rel="alternate"></link><published>2022-01-13T00:00:00+00:00</published><updated>2022-01-13T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-13:third-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>Second blog article</title><link href="second-blog-article.html" rel="alternate"></link><published>2022-01-12T00:00:00+00:00</published><updated>2022-01-12T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-12:second-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
+Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
+Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
+team and national cybersecurity organization of Brunei Darussalam. Affiliated
+with the OIC Computer Emergency Response Team, the Asia Pacific CERT (APCERT),
+Forum of Incident Response and Security Teams (FIRST) and other international
+organizations in information technology sector, it is tasked with preventing,
+analysing, and maintaining cybersecurity in addition to serving as a national
+research centre for IT infrastructure in the country.&lt;/p&gt;
+&lt;p&gt;It has maintained a network for coordination with the global organizations to
+identify cybercrime in the country with prim focus on computer and
+internet-related incidents within the jurisdiction of Brunei. BruCERT acquires
+data on information technology and security threats and share acquired
+findings or detected risks. It makes these findings accessible to the general
+public for increasing cybersecurity awareness in the country.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;BruCERT was established on 1 May 2004 by the government of Brunei tasked with
+improving the security in coordination with the Department of Information and
+Communication Technology (ICT). BruCERT is entrusted with dealing with
+cyberterrorism and security incidents.&lt;/p&gt;
+&lt;p&gt;Brunei Computer Emergency Response Team is headquartered in Simpang 69, Jalan
+E-Kerajaan, Gadong, Brunei. Its host organization is the Information
+Technology Protective Security Services.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.csb.gov.bn/brucert"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Brunei. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.brucert.org.bn/services"&gt;"Services"&lt;/a&gt;. BruCERT. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cybersecurityintelligence.com/brucert-1920.html"&gt;"BruCERT"&lt;/a&gt;. Cyber Security Intelligence. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.first.org/members/teams/brucert"&gt;"BruCERT"&lt;/a&gt;. FIRST — Forum of Incident Response and Security Teams. 2021-07-01. Retrieved 2022-02-15.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="posts"></category><category term="pelican"></category><category term="blog"></category><category term="demo"></category></entry><entry><title>First blog article</title><link href="first-blog-article.html" rel="alternate"></link><published>2022-01-10T00:00:00+00:00</published><updated>2022-01-10T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2022-01-10:first-blog-article.html</id><summary type="html">&lt;p&gt;This is a simple blog article, written in Markdown. Text below was copied from
 Wikipedia random article: &lt;a href="https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team"&gt;https://en.wikipedia.org/wiki/Brunei_Computer_Emergency_Response_Team&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Brunei Computer Emergency Response Team&lt;/strong&gt; &lt;em&gt;(Malay: Pasukan Respons Kecemasan
 Komputer Brunei)&lt;/em&gt;, commonly known as &lt;strong&gt;BruCERT&lt;/strong&gt;, is a computer emergency response
