@@ -77,10 +77,30 @@ code, code * {
   white-space: pre-wrap;
 }
 pre code, pre code * {
-  white-space: pre!important;
+  white-space: pre;
 }
 blockquote em {
   font-weight: 550;
+}
+
+
+/* Printer friendly */
+@media print {
+  :root {
+    --content-width: 100%;
+    --interface-width: 100%;
+  }
+  #menu,
+  .neighbors,
+  .page-footer {
+    visibility: collapse;
+  }
+  .page-header {
+    min-height: unset!important;
+  }
+  code, code * {
+    white-space: pre-wrap!important;
+  }
 }
 
 
