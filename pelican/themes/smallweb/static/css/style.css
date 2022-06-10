@@ -37,7 +37,11 @@ body {
   margin: 0;
   font-family: var(--text-font-family);
   font-size: 107%;
-  text-align: justify;
+}
+@media (min-width: 32rem) {
+  body {
+    text-align: justify;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font-family);
