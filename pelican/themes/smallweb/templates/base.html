@@ -18,6 +18,9 @@
   {% if ALLOW_GOOGLE_FONTS|default(True) %}
   <link href="{{ macros.css("/css/fonts.css") }}" type="text/css" rel="stylesheet">
   {% endif %}
+  {% if SMALLWEB_CODECOLOR|default("bleak") %}
+  <link href="{{ macros.css("/css/codecolor/bleak.css") }}" type="text/css" rel="stylesheet">
+  {% endif %}
   {% for css in CSS_OVERRIDE|default([]) %}
     <link href="{{ macros.url(css) }}" type="text/css" rel="stylesheet">
   {% endfor %}

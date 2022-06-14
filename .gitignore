@@ -9,3 +9,4 @@ Makefile.venv
 
 
 /demo/html/
+**/codecolor/*.css
