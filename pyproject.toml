@@ -19,6 +19,9 @@ keywords = ["blog", "pelican", "theme"]
 packages = [
     { include = "pelican" },
 ]
+include = [
+    "pelican/themes/smallweb/static/css/codecolor/*.css",
+]
 classifiers = [
     "Environment :: Console",
     "Intended Audience :: Developers",
