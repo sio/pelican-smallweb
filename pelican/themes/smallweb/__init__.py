@@ -4,7 +4,7 @@ SmallWeb theme for Pelican static site generator
 
 import colorsys
 from collections import namedtuple
-from pkg_resources import resource_filename, resource_string
+from pkg_resources import resource_filename, resource_string, resource_listdir, resource_isdir
 from hashlib import sha256 as hashfunc
 
 def path():
@@ -15,15 +15,23 @@ def path():
     return resource_filename(__name__, '')
 
 
-RESOURCES = [
-    '/css/fonts.css',
-    '/css/style.css',
-]
 def hashes():
-    return {name: _hash('static' + name) for name in RESOURCES}
+    '''Return hashes of static resources'''
+    prefix = 'static'
+    return {
+        name.replace(f'{prefix}', '', 1): _hash(name)
+        for name in _static_resources(prefix)
+    }
 def _hash(filename):
     checksum = hashfunc(resource_string(__name__, filename))
     return checksum.hexdigest()
+def _static_resources(path):
+    for name in resource_listdir(__name__, path):
+        resource = f'{path}/{name}'
+        if resource_isdir(__name__, resource):
+            yield from _static_resources(path=resource)
+        else:
+            yield resource
 
 
 PALETTE = dict(
