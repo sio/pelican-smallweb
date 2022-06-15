@@ -38,6 +38,7 @@ body {
   font-family: var(--text-font-family);
   font-size: 107%;
   background-color: var(--page-color);
+  color: var(--text-color);
 }
 @media (min-width: 32rem) {
   body {
