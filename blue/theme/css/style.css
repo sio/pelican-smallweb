@@ -38,6 +38,7 @@ body {
   font-family: var(--text-font-family);
   font-size: 107%;
   background-color: var(--page-color);
+  color: var(--text-color);
 }
 @media (min-width: 32rem) {
   body {
@@ -271,7 +272,8 @@ blockquote em {
 }
 .page-header:after {
   content: '';
-  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom, transparent 0%, var(--text-color) 100%);
+  opacity: 0.5;
   position: absolute;
   top: 0;
   width: 100%;
