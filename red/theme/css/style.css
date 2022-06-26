@@ -148,6 +148,7 @@ blockquote em {
 .menu-list a {
   text-align: center;
   padding: 1em 0.1em;
+  margin: 0 0.6em;
   text-decoration: none;
   color: var(--text-color-inverted);
   font-weight: bold;
