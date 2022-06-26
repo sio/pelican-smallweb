@@ -1,4 +1,5 @@
 SETUP_PY=pyproject.toml
+include Makefile.venv
 include makefiles/*.mk
 
 

@@ -1,4 +1,3 @@
-include Makefile.venv
 Makefile.venv:
 	curl \
 		-o Makefile.fetched \
