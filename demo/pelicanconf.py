@@ -8,6 +8,8 @@ accent = os.getenv('SMALLWEB_ACCENT')
 print(f'Rendering demo with accent color: {accent}')
 if accent:
     SMALLWEB_COLORS = smallweb.colors(accent)
+else:
+    SMALLWEB_COLORS = smallweb.colors()
 
 # Automatic cache invalidation for static files (optional)
 SMALLWEB_HASHES = smallweb.hashes()
