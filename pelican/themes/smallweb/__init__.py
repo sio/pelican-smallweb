@@ -51,9 +51,11 @@ def _rgb2hsl(color_hex: str):
     return hsl
 def colors(accent="#f26a3d"):
     '''Generate color pallette for CSS'''
+    rgb = accent
     accent = _rgb2hsl(accent)
     palette = dict()
     palette['accent-hue'] = accent.hue
     palette['accent-saturation'] = f'{accent.saturation}%'
     palette['accent-lightness'] = f'{accent.lightness}%'
+    palette['accent-rgb'] = rgb
     return palette

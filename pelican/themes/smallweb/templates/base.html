@@ -32,6 +32,9 @@
     {% endfor %}
   }
   </style>
+  {% if 'accent-rgb' in SMALLWEB_COLORS %}
+  <meta name="theme-color" content="{{ SMALLWEB_COLORS['accent-rgb'] }}">
+  {% endif %}
   {% endif %}
 </head>
 <body class="pelican-{{ template_name }}">
