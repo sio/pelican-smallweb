@@ -34,8 +34,8 @@ classifiers = [
 
 
 [tool.poetry.dependencies]
-pelican = ""
-setuptools = ""
+pelican = "*"
+setuptools = "*"
 
 
 [tool.poetry-dynamic-versioning]
