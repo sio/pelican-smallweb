@@ -17,10 +17,10 @@ Authors would like to thank [Marginalia Search] for keeping the spirit alive!
 
 ## Installation and usage
 
-This theme is installable via [PyPI]:
+This theme is installable with pip:
 
 ```
-$ pip install pelican-theme-smallweb
+$ pip install https://github.com/sio/pelican-smallweb/tarball/v2024.04.15#egginfo=pelican-smallweb
 ```
 
 Latest development version is also installable:
