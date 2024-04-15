@@ -37,3 +37,8 @@ demo-server: | venv
 pelican/themes/smallweb/static/css/codecolor/%.css: codecolor/%.py | venv
 	mkdir -p $(dir $@)
 	$(VENV)/python $< | tee $@
+
+
+.PHONY: clean
+clean:
+	-$(RM) -r -v $(DEMO_OUTPUT)

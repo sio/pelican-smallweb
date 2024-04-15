@@ -1,6 +1,5 @@
 <nav id="menu">
-  <a href="#" class="close button">Close</a>
-  <a href="#menu" class="open button">Menu</a>
+  <details><summary class="button"></summary>
   <ul class="menu-list">
   {% for title, link in MENUITEMS %}
       <li><a href="{{ link }}">{{ title }}</a></li>
@@ -16,4 +15,5 @@
   {% endfor %}
   {% endif %}
   </ul>
+  </details>
 </nav>
