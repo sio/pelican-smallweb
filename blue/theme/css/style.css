@@ -107,14 +107,14 @@ blockquote em {
 
 
 /* Navigation menu */
-#menu > *:not(.open.button) {
-  visibility: hidden;
+#menu details summary {
+  list-style: none;
 }
-#menu:target > .open.button {
-  visibility: hidden;
+#menu details summary::after {
+  content: "Menu";
 }
-#menu:target > *:not(.open.button) {
-  visibility: visible;
+#menu details[open] summary::after {
+  content: "Close";
 }
 #menu {
   position: absolute;

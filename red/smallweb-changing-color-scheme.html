@@ -13,7 +13,7 @@
   <link href="./smallweb-changing-color-scheme.html" rel="canonical">
 <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="SmallWeb: demo blog Full Atom Feed" />
 <link href="/feeds/posts.atom.xml" type="application/atom+xml" rel="alternate" title="SmallWeb: demo blog Categories Atom Feed" />
-  <link href="./theme/css/style.css?cache=492ad6eb13255c88488e90aff4faf6febecb10d166e0e6907dac1dda937eccd7" type="text/css" rel="stylesheet">
+  <link href="./theme/css/style.css?cache=2504b823bf880cfdee9f21c09a68cda85e6bfc65b897f1095dd3e359882a47cc" type="text/css" rel="stylesheet">
   <link href="./theme/css/fonts.css?cache=a1fbffd04a76898876dfb239f02a3019c8caa4e54239136082f8b1ec34ee3b33" type="text/css" rel="stylesheet">
   <link href="./theme/css/codecolor/bleak.css?cache=441f09f06d68fce9032740d24cbc604c6f36990f95f300d546a3c87ac388d954" type="text/css" rel="stylesheet">
   <style>
@@ -28,14 +28,14 @@
 </head>
 <body class="pelican-article">
 <nav id="menu">
-  <a href="#" class="close button">Close</a>
-  <a href="#menu" class="open button">Menu</a>
+  <details><summary class="button"></summary>
   <ul class="menu-list">
       <li><a href="https://github.com/sio/pelican-smallweb">github</a></li>
       <li><a href="https://pypi.org/project/pelican-theme-smallweb/">pypi</a></li>
       <li><a href="https://getpelican.com/">pelican</a></li>
       <li class="active"><a href="./category/posts.html">posts</a></li>
   </ul>
+  </details>
 </nav>  <header class="page-header">
     <h1>SmallWeb: changing color scheme</h1>
     <span class="subtitle"><a href="./">SmallWeb: demo blog</a> |
@@ -50,25 +50,25 @@ you like:</p>
 <li><a href="https://sio.github.io/pelican-smallweb/blue/"><code>accent='#0000ff'</code></a></li>
 </ul>
 <p><a href="https://github.com/sio/pelican-smallweb">SmallWeb</a> uses CSS variables to build the palette:</p>
-<div class="highlight"><pre><span></span><code><span class="p">:</span><span class="nd">root</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nv">--accent-color</span><span class="p">:</span><span class="w">  </span><span class="nb">hsl</span><span class="p">(</span><span class="w"></span>
-<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-hue</span><span class="p">),</span><span class="w"></span>
-<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-saturation</span><span class="p">),</span><span class="w"></span>
-<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-lightness</span><span class="p">)</span><span class="w"></span>
-<span class="w">  </span><span class="p">);</span><span class="w"> </span><span class="c">/* rgb(242,106,61) */</span><span class="w"></span>
-<span class="w">  </span><span class="nv">--accent-color-darker</span><span class="p">:</span><span class="w"> </span><span class="nb">hsl</span><span class="p">(</span><span class="w"></span>
-<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-hue</span><span class="p">),</span><span class="w"></span>
-<span class="w">    </span><span class="nb">calc</span><span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-saturation</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">27.9</span><span class="kt">%</span><span class="p">),</span><span class="w"></span>
-<span class="w">    </span><span class="nb">calc</span><span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-lightness</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">11.9</span><span class="kt">%</span><span class="p">)</span><span class="w"></span>
-<span class="w">  </span><span class="p">);</span><span class="w"></span>
-<span class="w">  </span><span class="nv">--accent-hue</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="p">;</span><span class="w"> </span><span class="c">/* TODO: convert from RGB in theme variables */</span><span class="w"></span>
-<span class="w">  </span><span class="nv">--accent-saturation</span><span class="p">:</span><span class="w"> </span><span class="mf">87.4</span><span class="kt">%</span><span class="p">;</span><span class="w"></span>
-<span class="w">  </span><span class="nv">--accent-lightness</span><span class="p">:</span><span class="w"> </span><span class="mf">59.4</span><span class="kt">%</span><span class="p">;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">:</span><span class="nd">root</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nv">--accent-color</span><span class="p">:</span><span class="w">  </span><span class="nb">hsl</span><span class="p">(</span>
+<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-hue</span><span class="p">),</span>
+<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-saturation</span><span class="p">),</span>
+<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-lightness</span><span class="p">)</span>
+<span class="w">  </span><span class="p">);</span><span class="w"> </span><span class="c">/* rgb(242,106,61) */</span>
+<span class="w">  </span><span class="nv">--accent-color-darker</span><span class="p">:</span><span class="w"> </span><span class="nb">hsl</span><span class="p">(</span>
+<span class="w">    </span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-hue</span><span class="p">),</span>
+<span class="w">    </span><span class="nb">calc</span><span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-saturation</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">27.9</span><span class="kt">%</span><span class="p">),</span>
+<span class="w">    </span><span class="nb">calc</span><span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="nv">--accent-lightness</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">11.9</span><span class="kt">%</span><span class="p">)</span>
+<span class="w">  </span><span class="p">);</span>
+<span class="w">  </span><span class="nv">--accent-hue</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="p">;</span><span class="w"> </span><span class="c">/* TODO: convert from RGB in theme variables */</span>
+<span class="w">  </span><span class="nv">--accent-saturation</span><span class="p">:</span><span class="w"> </span><span class="mf">87.4</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">  </span><span class="nv">--accent-lightness</span><span class="p">:</span><span class="w"> </span><span class="mf">59.4</span><span class="kt">%</span><span class="p">;</span>
 
-<span class="w">  </span><span class="nv">--text-color</span><span class="p">:</span><span class="w"> </span><span class="kc">black</span><span class="p">;</span><span class="w"></span>
-<span class="w">  </span><span class="nv">--text-color-inverted</span><span class="p">:</span><span class="w"> </span><span class="kc">white</span><span class="p">;</span><span class="w"></span>
-<span class="w">  </span><span class="nv">--page-color</span><span class="p">:</span><span class="w"> </span><span class="kc">white</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<span class="w">  </span><span class="nv">--text-color</span><span class="p">:</span><span class="w"> </span><span class="kc">black</span><span class="p">;</span>
+<span class="w">  </span><span class="nv">--text-color-inverted</span><span class="p">:</span><span class="w"> </span><span class="kc">white</span><span class="p">;</span>
+<span class="w">  </span><span class="nv">--page-color</span><span class="p">:</span><span class="w"> </span><span class="kc">white</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 
 <p>You can override these via <code>CSS_OVERRIDE</code> or <code>SMALLWEB_COLORS</code> to provide your own color scheme.</p>
